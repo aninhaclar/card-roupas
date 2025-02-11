@@ -1,0 +1,28 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; /* Alinha à direita */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: black; /* Fundo preto */
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.menu li:hover {
+    opacity: 0.7; /* Efeito ao passar o mouse */
+}
+
+.menu li img {
+    width: 20px; /* Ícones menores */
+    height: 20px;
+    margin-right: 5px;
+}
